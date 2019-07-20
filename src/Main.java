@@ -26,8 +26,8 @@ public class Main {
             webDriver.findElement(By.xpath("//a[text()='Log in with Facebook']")).click();
 
             //Add your Email and Password
-            webDriver.findElement(By.id("email")).sendKeys("email");
-            webDriver.findElement(By.id("pass")).sendKeys("password");
+            webDriver.findElement(By.id("email")).sendKeys("Your_email_here");
+            webDriver.findElement(By.id("pass")).sendKeys("Your_password_here");
 
             webDriver.findElement(By.id("loginbutton")).click();
 
